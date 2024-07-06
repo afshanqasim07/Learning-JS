@@ -65,6 +65,24 @@ console.log(username);
 var username = prompt("Enter password");
 console.log(password);
 
+// we dont use var anymore so we use let/const to store varibales.
+
+
+// question no 1
+
+// if we have profile posts follwers following and follow button so to store the value what will you do to make it store in a set 
+
+
+// solution
+
+const profile = {
+  username:"afshanqasim",
+  followers: 123,
+  following :123,
+  posts :22,
+  isfollow : 'FALSE',
+}
+console.log(username, followers, following, posts, isfollow);
 
 
 
